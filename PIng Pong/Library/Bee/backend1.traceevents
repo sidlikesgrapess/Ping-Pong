@@ -1,0 +1,465 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1735498340503891, "dur":2318, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1735498340506225, "dur":327, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1735498340506633, "dur":268, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1735498340506918, "dur":5062, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1735498340511981, "dur":433183, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1735498340945214, "dur":195, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1735498340945564, "dur":3547, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1735498340507188, "dur":4802, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340513932, "dur":1302, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1735498340515234, "dur":6298, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1735498340521533, "dur":76, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1735498340521609, "dur":1162, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1735498340522771, "dur":56, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":1, "ts":1735498340522828, "dur":217, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1735498340523045, "dur":113, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1735498340511993, "dur":11210, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340523213, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/14369920726895396890.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1735498340523692, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340523841, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340524056, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340524163, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340524252, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340524358, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340524544, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340524657, "dur":358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340525022, "dur":524, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340525553, "dur":1238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340526798, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340526908, "dur":998, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340527913, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340528195, "dur":957, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340529162, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340529294, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340529401, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340529676, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340529778, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340530089, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340530165, "dur":1039, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340531216, "dur":573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340531795, "dur":570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340532371, "dur":463, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340532845, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340532954, "dur":280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340534086, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1735498340534180, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1735498340534249, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1735498340534529, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Temp\\InputSystemLink.xml" }}
+,{ "pid":12345, "tid":1, "ts":1735498340534621, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1735498340523312, "dur":12270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/Admin/Documents/GitHub/Ping-Pong/PIng Pong/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1735498340535583, "dur":4872, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340586393, "dur":16115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1735498340602510, "dur":828, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340604836, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340613765, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340615242, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340615350, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340617964, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340625463, "dur":126, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340618123, "dur":7482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340625613, "dur":764, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340626460, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340630622, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340630703, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340633790, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340637067, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340634303, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340637152, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340638813, "dur":338, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340637292, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340639293, "dur":8687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340648078, "dur":4051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340652138, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340672743, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340652248, "dur":20588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340672841, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340673004, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340674966, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340676402, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340676504, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1735498340676564, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340678077, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1735498340679885, "dur":265178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340507195, "dur":4801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340512001, "dur":1149, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340513150, "dur":727, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340513878, "dur":599, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340514477, "dur":576, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340515053, "dur":1012, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340516065, "dur":7145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340523213, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1735498340523266, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340538523, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1735498340539730, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong.exe" }}
+,{ "pid":12345, "tid":2, "ts":1735498340541312, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340541366, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340541598, "dur":8925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340550591, "dur":7095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1735498340557765, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340557993, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1735498340559578, "dur":82, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340559671, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1735498340561758, "dur":8006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1735498340569830, "dur":17290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340587121, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340587194, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340587439, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340589784, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340591928, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340594293, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340594390, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340596257, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340596457, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340598152, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340606326, "dur":744, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340601836, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340607172, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340607555, "dur":7658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340615226, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340615673, "dur":6737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340622460, "dur":10233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340632700, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340632949, "dur":7242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340640283, "dur":4648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340644940, "dur":3549, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1735498340648514, "dur":31607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1735498340680122, "dur":264904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340507237, "dur":4771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340512012, "dur":628, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340512640, "dur":816, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340513457, "dur":580, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340514037, "dur":887, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340514925, "dur":961, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340515887, "dur":7324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340523214, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1735498340524903, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1735498340527643, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1735498340529617, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340529992, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1735498340534012, "dur":822, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340533095, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1735498340535781, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1735498340536846, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1735498340538180, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340541723, "dur":31332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340573097, "dur":13884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340586985, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340587235, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340589132, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340592918, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340595900, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340597655, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340597773, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340599926, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340600116, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340601898, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340604406, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340608672, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340610290, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340613540, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340613770, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340616489, "dur":6118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340622628, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340622681, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340623047, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340626999, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340627135, "dur":3998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340631141, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340631299, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340635100, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340635277, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340638548, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340638644, "dur":237, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340638889, "dur":5114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340644015, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340644571, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340647774, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340650702, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340650800, "dur":26686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340677499, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1735498340677589, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1735498340681257, "dur":263708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340507228, "dur":4776, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340512007, "dur":688, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340512696, "dur":745, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340513441, "dur":592, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340514033, "dur":598, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340514631, "dur":577, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340515209, "dur":591, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340515800, "dur":7441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340524924, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1735498340528257, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1735498340531060, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340529856, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1735498340531250, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340531383, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340533260, "dur":1538, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340531456, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1735498340534865, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1735498340553500, "dur":250, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340538228, "dur":15555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1735498340553955, "dur":5869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1735498340562241, "dur":407, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340559912, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1735498340565716, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340562823, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1735498340565958, "dur":21031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340587241, "dur":10637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340597936, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340599941, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340601583, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340600065, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340601804, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340603374, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340605469, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340609236, "dur":558, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340609805, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340609927, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340613369, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340616374, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340616492, "dur":6365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340622862, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340622969, "dur":3972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340626954, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340627137, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340629318, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340631465, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340631536, "dur":4446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340636007, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340636072, "dur":99, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340638808, "dur":168, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340636178, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340639042, "dur":6141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340645189, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340645400, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340649656, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340645463, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340649794, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340649907, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340654000, "dur":1132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340655178, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340658217, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340659693, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340663328, "dur":145, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340659781, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340663615, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340663691, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340665130, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340665323, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340666952, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340667336, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340669192, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340669548, "dur":4847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340674457, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340676286, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340677817, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340679263, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1735498340677958, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1735498340679338, "dur":265797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340507269, "dur":4749, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340512022, "dur":644, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340512667, "dur":679, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340513346, "dur":578, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340514341, "dur":649, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.30f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.ServiceModel.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340513924, "dur":1682, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340515607, "dur":7600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340524441, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1735498340527190, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1735498340527724, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1735498340532903, "dur":1919, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340529912, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1735498340534938, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1735498340538654, "dur":18996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1735498340557975, "dur":4808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1735498340562895, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1735498340564505, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340567556, "dur":423, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340564578, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1735498340568094, "dur":18804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340587231, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340588958, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340589979, "dur":96, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340590096, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340591927, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340593599, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340593796, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340595684, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340596751, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340596871, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340598283, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340598387, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340600452, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340600631, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340602230, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340602419, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340604196, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340605866, "dur":993, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340604302, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340606877, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340607065, "dur":15178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340622307, "dur":12731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340635048, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340635184, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340638545, "dur":293, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340643973, "dur":167, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340638850, "dur":5307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340644163, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340644566, "dur":29020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340673713, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340675139, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340675239, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340676869, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340679760, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1735498340678455, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1735498340679852, "dur":265250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340507309, "dur":4720, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340512032, "dur":637, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340512669, "dur":645, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340513315, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340513851, "dur":564, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340514416, "dur":542, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340514959, "dur":816, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340515775, "dur":7445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340523221, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1735498340523292, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340535652, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1735498340536827, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1735498340537144, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1735498340538035, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340538214, "dur":11535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340549902, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1735498340550046, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1735498340552556, "dur":7640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1735498340562550, "dur":1005, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340560321, "dur":5012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1735498340565420, "dur":20975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340586397, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340586796, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340589292, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340589448, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340590013, "dur":131, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340590152, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340592339, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340592469, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340594357, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340596675, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340596735, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340596891, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340598427, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340598536, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340601730, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340605504, "dur":952, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340601820, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340606486, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340606758, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340609478, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340609567, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340610646, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340610914, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340614366, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340614610, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340618624, "dur":2563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340638823, "dur":347, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340621230, "dur":17955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340639294, "dur":5399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340644750, "dur":6306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340651061, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340651320, "dur":4018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340655350, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340655632, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340659182, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340659323, "dur":4765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340664097, "dur":770, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340664894, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340667068, "dur":658, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340667761, "dur":4525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340672307, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1735498340672474, "dur":7428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1735498340679903, "dur":265025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340507342, "dur":4697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340512042, "dur":674, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340512717, "dur":660, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340513377, "dur":600, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340513977, "dur":599, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340514577, "dur":642, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340515220, "dur":7988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340523214, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1735498340538914, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1735498340540006, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1735498340540423, "dur":42306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1735498340582772, "dur":4117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340586894, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340587237, "dur":12439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340599686, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340599786, "dur":11488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340611283, "dur":1055, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340612378, "dur":13867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340626453, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340628686, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340630441, "dur":11086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340641537, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340641936, "dur":4272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340646212, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340646331, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340646591, "dur":4629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340651319, "dur":5720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340657061, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340657550, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340662021, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340662296, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340664633, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340666628, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340673323, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340668471, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340673433, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340673773, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340675480, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1735498340675599, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340677470, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1735498340678743, "dur":266188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340507375, "dur":4674, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340512049, "dur":634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340512684, "dur":648, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340513332, "dur":576, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340513909, "dur":716, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340514626, "dur":1047, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340515673, "dur":7532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340523344, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1735498340523425, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1735498340523691, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340523845, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340524033, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340524145, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340524237, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340524371, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340524553, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340524756, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340525052, "dur":495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340525553, "dur":1128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340526689, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340526792, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340526894, "dur":723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340527626, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340527713, "dur":348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340528064, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340528134, "dur":1062, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340529200, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340529481, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340529756, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340529967, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340530269, "dur":725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340531003, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340531079, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340531515, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340531707, "dur":689, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340532406, "dur":599, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340533011, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Admin\\Documents\\GitHub\\Ping-Pong\\PIng Pong\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1735498340523309, "dur":10829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1735498340535327, "dur":230, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1735498340535932, "dur":396412, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1735498340943928, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1735498340943888, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1735498340944068, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/study(fr)/unity/exports/PIng Pong_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1735498340964653, "dur":1946, "ph":"X", "name": "ProfilerWriteOutput" }
+,
